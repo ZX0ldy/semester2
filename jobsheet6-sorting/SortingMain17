@@ -1,0 +1,15 @@
+public class SortingMain23 {
+
+    public static void main(String[] args) {
+        int[] a = {34, 7, 23, 32, 5, 62};
+        Sorting23 sorting = new Sorting23(a);
+        
+        System.out.println("Original array:");
+        sorting.print();
+
+        sorting.bubbleSort();
+
+        System.out.println("Sorted array:");
+        sorting.print();
+    }
+}
